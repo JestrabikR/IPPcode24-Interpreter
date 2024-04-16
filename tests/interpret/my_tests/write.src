@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<program language="IPPcode24">
+    <instruction order="2" opcode="WRITE">
+        <arg1 type="string"> 
+            Hello\032World\010
+        </arg1>
+    </instruction>
+    <instruction order="3" opcode="WRITE">
+        <arg1 type="bool"> 
+            true
+        </arg1>
+    </instruction>
+    <instruction order="4" opcode="WRITE">
+        <arg1 type="bool"> 
+            false
+        </arg1>
+    </instruction>
+    <instruction order="5" opcode="WRITE">
+        <arg1 type="int"> 
+            321
+        </arg1>
+    </instruction>
+    <instruction order="6" opcode="WRITE">
+        <arg1 type="nil"> 
+            //TODO: ma tady byt neco?
+        </arg1>
+    </instruction>
+    <instruction order="7" opcode="DEFVAR">
+        <arg1 type="var">
+            GF@a
+        </arg1>
+    </instruction>
+    <instruction order="8" opcode="MOVE">
+        <arg1 type="var">
+            GF@a
+        </arg1>
+        <arg2 type="string"> 
+            hello
+        </arg2>
+    </instruction>
+    <instruction order="9" opcode="WRITE">
+        <arg1 type="var"> 
+            GF@a
+        </arg1>
+    </instruction>
+    <instruction order="10" opcode="MOVE">
+        <arg1 type="var">
+            GF@a
+        </arg1>
+        <arg2 type="bool"> 
+            true
+        </arg2>
+    </instruction>
+    <instruction order="11" opcode="WRITE">
+        <arg1 type="var"> 
+            GF@a
+        </arg1>
+    </instruction>
+    <instruction order="12" opcode="MOVE">
+        <arg1 type="var">
+            GF@a
+        </arg1>
+        <arg2 type="bool"> 
+            false
+        </arg2>
+    </instruction>
+    <instruction order="13" opcode="WRITE">
+        <arg1 type="var"> 
+            GF@a
+        </arg1>
+    </instruction>
+    <instruction order="14" opcode="MOVE">
+        <arg1 type="var">
+            GF@a
+        </arg1>
+        <arg2 type="string"> 
+            varString
+        </arg2>
+    </instruction>
+    <instruction order="15" opcode="WRITE">
+        <arg1 type="var"> 
+            GF@a
+        </arg1>
+    </instruction>
+    <instruction order="16" opcode="MOVE">
+        <arg1 type="var">
+            GF@a
+        </arg1>
+        <arg2 type="nil"> 
+            nil
+        </arg2>
+    </instruction>
+    <instruction order="17" opcode="WRITE">
+        <arg1 type="var"> 
+            GF@a
+        </arg1>
+    </instruction>
+    <instruction order="18" opcode="MOVE">
+        <arg1 type="var">
+            GF@a
+        </arg1>
+        <arg2 type="int"> 
+            123
+        </arg2>
+    </instruction>
+    <instruction order="19" opcode="WRITE">
+        <arg1 type="var"> 
+            GF@a
+        </arg1>
+    </instruction>
+</program>

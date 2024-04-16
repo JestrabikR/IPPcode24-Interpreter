@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<program language="IPPcode24">
+    <instruction order="1" opcode="DPRINT">
+        <arg1 type="string">
+            ahoj
+        </arg1>
+    </instruction>
+    <instruction order="2" opcode="DPRINT">
+        <arg1 type="int">
+            123
+        </arg1>
+    </instruction>
+    <instruction order="3" opcode="DPRINT">
+        <arg1 type="bool">
+            bool
+        </arg1>
+    </instruction>
+    <instruction order="4" opcode="DPRINT">
+        <arg1 type="nil">
+            nil
+        </arg1>
+    </instruction>
+    <instruction order="5" opcode="DEFVAR">
+        <arg1 type="var">
+            GF@a
+        </arg1>
+    </instruction>
+    <instruction order="7" opcode="MOVE">
+        <arg1 type="var">
+            GF@a
+        </arg1>
+        <arg1 type="string">
+            test
+        </arg1>
+    </instruction>
+    <instruction order="8" opcode="DPRINT">
+        <arg1 type="var">
+            GF@a
+        </arg1>
+    </instruction>
+    <instruction order="9" opcode="MOVE">
+        <arg1 type="var">
+            GF@a
+        </arg1>
+        <arg1 type="nil">
+            nil
+        </arg1>
+    </instruction>
+    <instruction order="10" opcode="DPRINT">
+        <arg1 type="var">
+            GF@a
+        </arg1>
+    </instruction>
+    <instruction order="11" opcode="MOVE">
+        <arg1 type="var">
+            GF@a
+        </arg1>
+        <arg1 type="int">
+            321
+        </arg1>
+    </instruction>
+    <instruction order="12" opcode="BREAK">
+    </instruction>
+    <instruction order="13" opcode="DPRINT">
+        <arg1 type="var">
+            GF@a
+        </arg1>
+    </instruction>
+</program>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<program language="IPPcode24">
+    <instruction order="1" opcode="DEFVAR">
+        <arg1 type="var">
+            GF@a
+        </arg1>
+    </instruction>
+    <instruction order="2" opcode="MOVE">
+        <arg1 type="var">
+            GF@a
+        </arg1>
+        <arg2 type="nil"> 
+            0
+        </arg2>
+    </instruction>
+    <instruction order="3" opcode="DEFVAR">
+        <arg1 type="var">
+            GF@b
+        </arg1>
+    </instruction>
+    <instruction order="4" opcode="MOVE">
+        <arg1 type="var">
+            GF@b
+        </arg1>
+        <arg2 type="int"> 
+            1
+        </arg2>
+    </instruction>
+    <instruction order="5" opcode="JUMPIFNEQ">
+        <arg1 type="label">
+            end_label
+        </arg1>
+        <arg2 type="var">
+            GF@a
+        </arg2>
+        <arg3 type="var">
+            GF@b
+        </arg3>
+    </instruction>
+    <instruction order="6" opcode="WRITE">
+        <arg1 type="string"> 
+            Hello\032World
+        </arg1>
+    </instruction>
+    <instruction order="7" opcode="LABEL">
+        <arg1 type="label">
+            end_label
+        </arg1>
+    </instruction>
+</program>

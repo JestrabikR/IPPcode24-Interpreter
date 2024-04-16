@@ -1,0 +1,573 @@
+[1;32mPASS[0m /ipp-php/interpret_tests/CREATEFRAME/cf_removed_var.src
+[1;32mPASS[0m /ipp-php/interpret_tests/CREATEFRAME/createframe.src
+[1;32mPASS[0m /ipp-php/interpret_tests/SETCHAR/setchar_wrong_int_int.src
+[1;32mPASS[0m /ipp-php/interpret_tests/SETCHAR/setchar_wrong_bool_string.src
+[1;32mPASS[0m /ipp-php/interpret_tests/SETCHAR/setchar_wrong_bool_nil.src
+[1;32mPASS[0m /ipp-php/interpret_tests/SETCHAR/setchar_vars.src
+[1;32mPASS[0m /ipp-php/interpret_tests/SETCHAR/setchar_wrong_index.src
+[1;32mPASS[0m /ipp-php/interpret_tests/SETCHAR/setchar_wrong_bool_bool.src
+[1;32mPASS[0m /ipp-php/interpret_tests/SETCHAR/setchar_wrong_nil_nil.src
+[1;32mPASS[0m /ipp-php/interpret_tests/SETCHAR/setchar.src
+[1;32mPASS[0m /ipp-php/interpret_tests/SETCHAR/setchar_symb.src
+[1;32mPASS[0m /ipp-php/interpret_tests/SETCHAR/setchar_wrong_int_bool.src
+[1;32mPASS[0m /ipp-php/interpret_tests/SETCHAR/setchar_wrong_emptystr.src
+[1;32mPASS[0m /ipp-php/interpret_tests/SETCHAR/setchar_wrong_nil_string.src
+[1;32mPASS[0m /ipp-php/interpret_tests/SETCHAR/setchar_wrong_nil_bool.src
+[1;32mPASS[0m /ipp-php/interpret_tests/SETCHAR/setchar_wrong_int_nil.src
+[1;32mPASS[0m /ipp-php/interpret_tests/SETCHAR/setchar_wrong_string_nil.src
+[1;32mPASS[0m /ipp-php/interpret_tests/SETCHAR/setchar_wrong_string_string.src
+[1;32mPASS[0m /ipp-php/interpret_tests/SETCHAR/setchar_wrong_string_int.src
+[1;32mPASS[0m /ipp-php/interpret_tests/SETCHAR/setchar_wrong_nil_int.src
+[1;32mPASS[0m /ipp-php/interpret_tests/SETCHAR/setchar_wrong_string_bool.src
+[1;32mPASS[0m /ipp-php/interpret_tests/SETCHAR/setchar_wrong_bool_int.src
+[1;32mPASS[0m /ipp-php/interpret_tests/EQ/eq_nil_string.src
+[1;32mPASS[0m /ipp-php/interpret_tests/EQ/eq_nil_nil.src
+[1;32mPASS[0m /ipp-php/interpret_tests/EQ/eq_wrong_bool_int.src
+[1;32mPASS[0m /ipp-php/interpret_tests/EQ/eq_nil_int.src
+[1;32mPASS[0m /ipp-php/interpret_tests/EQ/eq_vars.src
+[1;32mPASS[0m /ipp-php/interpret_tests/EQ/eq_wrong_int_string.src
+[1;32mPASS[0m /ipp-php/interpret_tests/EQ/eq_wrong_int_bool.src
+[1;32mPASS[0m /ipp-php/interpret_tests/EQ/eq_int.src
+[1;32mPASS[0m /ipp-php/interpret_tests/EQ/eq_wrong_string_bool.src
+[1;32mPASS[0m /ipp-php/interpret_tests/EQ/eq_string2.src
+[1;32mPASS[0m /ipp-php/interpret_tests/EQ/eq_string.src
+[1;32mPASS[0m /ipp-php/interpret_tests/EQ/eq_symb.src
+[1;32mPASS[0m /ipp-php/interpret_tests/EQ/eq_wrong_string_int.src
+[1;32mPASS[0m /ipp-php/interpret_tests/EQ/eq_bool2.src
+[1;32mPASS[0m /ipp-php/interpret_tests/EQ/eq_bool.src
+[1;32mPASS[0m /ipp-php/interpret_tests/EQ/eq_wrong_bool_string.src
+[1;32mPASS[0m /ipp-php/interpret_tests/EQ/eq_nil_bool.src
+[1;32mPASS[0m /ipp-php/interpret_tests/INT2CHAR/int2char_int.src
+[1;32mPASS[0m /ipp-php/interpret_tests/INT2CHAR/int2char_wrong_string.src
+[1;32mPASS[0m /ipp-php/interpret_tests/INT2CHAR/int2char_wrong_bool.src
+[1;32mPASS[0m /ipp-php/interpret_tests/INT2CHAR/int2char_wrong_nil.src
+[1;32mPASS[0m /ipp-php/interpret_tests/INT2CHAR/int2char_wrong_int.src
+[1;32mPASS[0m /ipp-php/interpret_tests/INT2CHAR/int2char_var.src
+[1;32mPASS[0m /ipp-php/interpret_tests/POPFRAME/popframe_fault.src
+[1;32mPASS[0m /ipp-php/interpret_tests/POPFRAME/popframe.src
+[1;32mPASS[0m /ipp-php/interpret_tests/EXIT/exit_wrong_nil.src
+[1;32mPASS[0m /ipp-php/interpret_tests/EXIT/exit_wrong_bool.src
+[1;32mPASS[0m /ipp-php/interpret_tests/EXIT/exit_int.src
+[1;32mPASS[0m /ipp-php/interpret_tests/EXIT/exit_wrong_string.src
+[1;32mPASS[0m /ipp-php/interpret_tests/EXIT/exit_wrong_int.src
+[1;32mPASS[0m /ipp-php/interpret_tests/EXIT/exit_wrong_var.src
+[1;31mBad stdout[0m /ipp-php/interpret_tests/MOVE/move_var.src
+1c1
+< GF@b
+\ No newline at end of file
+---
+> 42
+\ No newline at end of file
+
+run this test with:
+php ../interpret.php --source=/ipp-php/interpret_tests/MOVE/move_var.src --input=/ipp-php/interpret_tests/MOVE/move_var.in
+[1;32mPASS[0m /ipp-php/interpret_tests/MOVE/move.src
+[1;32mPASS[0m /ipp-php/interpret_tests/SUB/sub_wrong_string_string.src
+[1;32mPASS[0m /ipp-php/interpret_tests/SUB/sub_wrong_string_bool.src
+[1;32mPASS[0m /ipp-php/interpret_tests/SUB/sub_wrong_bool_int.src
+[1;32mPASS[0m /ipp-php/interpret_tests/SUB/sub_wrong_string_nil.src
+[1;32mPASS[0m /ipp-php/interpret_tests/SUB/sub_wrong_int_nil.src
+[1;32mPASS[0m /ipp-php/interpret_tests/SUB/sub_wrong_int_bool.src
+[1;32mPASS[0m /ipp-php/interpret_tests/SUB/sub_vars.src
+[1;32mPASS[0m /ipp-php/interpret_tests/SUB/sub_wrong_nil_int.src
+[1;32mPASS[0m /ipp-php/interpret_tests/SUB/sub_wrong_string_int.src
+[1;32mPASS[0m /ipp-php/interpret_tests/SUB/sub_wrong_bool_nil.src
+[1;32mPASS[0m /ipp-php/interpret_tests/SUB/sub_wrong_bool_bool.src
+[1;32mPASS[0m /ipp-php/interpret_tests/SUB/sub_wrong_nil_nil.src
+[1;32mPASS[0m /ipp-php/interpret_tests/SUB/sub_wrong_int_string.src
+[1;32mPASS[0m /ipp-php/interpret_tests/SUB/sub_wrong_nil_string.src
+[1;32mPASS[0m /ipp-php/interpret_tests/SUB/sub_wrong_nil_bool.src
+[1;32mPASS[0m /ipp-php/interpret_tests/SUB/sub_ints.src
+[1;32mPASS[0m /ipp-php/interpret_tests/SUB/sub_wrong_bool_string.src
+[1;32mPASS[0m /ipp-php/interpret_tests/SUB/sub_symb.src
+[1;32mPASS[0m /ipp-php/interpret_tests/XML/bad_arg.src
+[1;31mBad stdout[0m /ipp-php/interpret_tests/XML/bad_arg3.src
+1d0
+< abc
+\ No newline at end of file
+
+run this test with:
+php ../interpret.php --source=/ipp-php/interpret_tests/XML/bad_arg3.src --input=/ipp-php/interpret_tests/XML/bad_arg3.in
+[1;31mBad RC[0m /ipp-php/interpret_tests/XML/bad_arg3.src
+got rc | expected rc
+0     |	32
+run this test with:
+php ../interpret.php --source=/ipp-php/interpret_tests/XML/bad_arg3.src --input=/ipp-php/interpret_tests/XML/bad_arg3.in
+[1;32mPASS[0m /ipp-php/interpret_tests/XML/bad_program_tag2.src
+[1;31mBad RC[0m /ipp-php/interpret_tests/XML/arg_outside_instr.src
+got rc | expected rc
+54    |	32
+run this test with:
+php ../interpret.php --source=/ipp-php/interpret_tests/XML/arg_outside_instr.src --input=/ipp-php/interpret_tests/XML/arg_outside_instr.in
+[1;31mBad stdout[0m /ipp-php/interpret_tests/XML/bad_arg5.src
+1d0
+< abc
+\ No newline at end of file
+
+run this test with:
+php ../interpret.php --source=/ipp-php/interpret_tests/XML/bad_arg5.src --input=/ipp-php/interpret_tests/XML/bad_arg5.in
+[1;31mBad RC[0m /ipp-php/interpret_tests/XML/bad_arg5.src
+got rc | expected rc
+0     |	32
+run this test with:
+php ../interpret.php --source=/ipp-php/interpret_tests/XML/bad_arg5.src --input=/ipp-php/interpret_tests/XML/bad_arg5.in
+[1;32mPASS[0m /ipp-php/interpret_tests/XML/negative_instr_order.src
+[1;32mPASS[0m /ipp-php/interpret_tests/XML/bad_program_tag.src
+[1;32mPASS[0m /ipp-php/interpret_tests/XML/two.src
+[1;32mPASS[0m /ipp-php/interpret_tests/XML/bad_arg2.src
+[1;32mPASS[0m /ipp-php/interpret_tests/XML/invalid_instr_oder.src
+[1;31mBad RC[0m /ipp-php/interpret_tests/XML/invalid_tag_name.src
+got rc | expected rc
+0     |	32
+run this test with:
+php ../interpret.php --source=/ipp-php/interpret_tests/XML/invalid_tag_name.src --input=/ipp-php/interpret_tests/XML/invalid_tag_name.in
+[1;31mBad stdout[0m /ipp-php/interpret_tests/XML/arg_order.src
+0a1
+> abc
+\ No newline at end of file
+
+run this test with:
+php ../interpret.php --source=/ipp-php/interpret_tests/XML/arg_order.src --input=/ipp-php/interpret_tests/XML/arg_order.in
+[1;31mBad RC[0m /ipp-php/interpret_tests/XML/arg_order.src
+got rc | expected rc
+32    |	0
+run this test with:
+php ../interpret.php --source=/ipp-php/interpret_tests/XML/arg_order.src --input=/ipp-php/interpret_tests/XML/arg_order.in
+[1;32mPASS[0m /ipp-php/interpret_tests/XML/bad_program_tag3.src
+[1;31mBad stdout[0m /ipp-php/interpret_tests/XML/bad_arg4.src
+1d0
+< abc
+\ No newline at end of file
+
+run this test with:
+php ../interpret.php --source=/ipp-php/interpret_tests/XML/bad_arg4.src --input=/ipp-php/interpret_tests/XML/bad_arg4.in
+[1;31mBad RC[0m /ipp-php/interpret_tests/XML/bad_arg4.src
+got rc | expected rc
+0     |	32
+run this test with:
+php ../interpret.php --source=/ipp-php/interpret_tests/XML/bad_arg4.src --input=/ipp-php/interpret_tests/XML/bad_arg4.in
+[1;32mPASS[0m /ipp-php/interpret_tests/XML/instr_oder_zero.src
+[1;32mPASS[0m /ipp-php/interpret_tests/XML/one.src
+[1;32mPASS[0m /ipp-php/interpret_tests/XML/bad_program_tag4.src
+[1;32mPASS[0m /ipp-php/interpret_tests/XML/arg_spaces.src
+[1;32mPASS[0m /ipp-php/interpret_tests/XML/invalid_tag_name2.src
+[1;32mPASS[0m /ipp-php/interpret_tests/ADD/add_wrong_bool_bool.src
+[1;32mPASS[0m /ipp-php/interpret_tests/ADD/add_wrong_nil_nil.src
+[1;32mPASS[0m /ipp-php/interpret_tests/ADD/add_wrong_string_int.src
+[1;32mPASS[0m /ipp-php/interpret_tests/ADD/add_wrong_nil_bool.src
+[1;32mPASS[0m /ipp-php/interpret_tests/ADD/add_wrong_nil_string.src
+[1;32mPASS[0m /ipp-php/interpret_tests/ADD/add_ints.src
+[1;32mPASS[0m /ipp-php/interpret_tests/ADD/add_wrong_int_bool.src
+[1;32mPASS[0m /ipp-php/interpret_tests/ADD/add_wrong_int_string.src
+[1;32mPASS[0m /ipp-php/interpret_tests/ADD/add_symb.src
+[1;32mPASS[0m /ipp-php/interpret_tests/ADD/add_vars.src
+[1;32mPASS[0m /ipp-php/interpret_tests/ADD/add_wrong_string_bool.src
+[1;32mPASS[0m /ipp-php/interpret_tests/ADD/add_wrong_string_string.src
+[1;32mPASS[0m /ipp-php/interpret_tests/ADD/add_wrong_string_nil.src
+[1;32mPASS[0m /ipp-php/interpret_tests/ADD/add_wrong_nil_int.src
+[1;32mPASS[0m /ipp-php/interpret_tests/ADD/add_wrong_bool_int.src
+[1;32mPASS[0m /ipp-php/interpret_tests/ADD/add_wrong_int_nil.src
+[1;32mPASS[0m /ipp-php/interpret_tests/ADD/add_wrong_bool_nil.src
+[1;32mPASS[0m /ipp-php/interpret_tests/ADD/add_wrong_bool_string.src
+[1;32mPASS[0m /ipp-php/interpret_tests/RETURN/return_nonexisting.src
+[1;31mBad stdout[0m /ipp-php/interpret_tests/RETURN/return_backwards.src
+1c1
+< 42
+\ No newline at end of file
+---
+> 4269
+\ No newline at end of file
+
+run this test with:
+php ../interpret.php --source=/ipp-php/interpret_tests/RETURN/return_backwards.src --input=/ipp-php/interpret_tests/RETURN/return_backwards.in
+[1;31mBad stdout[0m /ipp-php/interpret_tests/RETURN/return_forward.src
+0a1
+> 42
+\ No newline at end of file
+
+run this test with:
+php ../interpret.php --source=/ipp-php/interpret_tests/RETURN/return_forward.src --input=/ipp-php/interpret_tests/RETURN/return_forward.in
+[1;32mPASS[0m /ipp-php/interpret_tests/DEFVAR/defvar_redef_LF.src
+[1;32mPASS[0m /ipp-php/interpret_tests/DEFVAR/defvar.src
+[1;32mPASS[0m /ipp-php/interpret_tests/DEFVAR/defvar_redef_TF.src
+[1;32mPASS[0m /ipp-php/interpret_tests/DEFVAR/defvar_redef_GF.src
+[1;32mPASS[0m /ipp-php/interpret_tests/JUMPIFNEQ/jumpifneq_wrong_string_bool.src
+[1;32mPASS[0m /ipp-php/interpret_tests/JUMPIFNEQ/jumpifneq.src
+[1;32mPASS[0m /ipp-php/interpret_tests/JUMPIFNEQ/jumpifneq_wrong_int_bool.src
+[1;32mPASS[0m /ipp-php/interpret_tests/JUMPIFNEQ/jumpifneq_nonexisting.src
+[1;32mPASS[0m /ipp-php/interpret_tests/JUMPIFNEQ/jumpifneq_wrong_string_int.src
+[1;32mPASS[0m /ipp-php/interpret_tests/JUMPIFNEQ/jumpifneq_wrong_bool_int.src
+[1;32mPASS[0m /ipp-php/interpret_tests/JUMPIFNEQ/jumpifneq_wrong_int_string.src
+[1;32mPASS[0m /ipp-php/interpret_tests/JUMPIFNEQ/jumpifneq_wrong_bool_string.src
+[1;32mPASS[0m /ipp-php/interpret_tests/JUMPIFNEQ/jumpifneq2.src
+[1;32mPASS[0m /ipp-php/interpret_tests/CALL/call_nonexisting.src
+[1;32mPASS[0m /ipp-php/interpret_tests/CALL/call_forward.src
+[1;32mPASS[0m /ipp-php/interpret_tests/CALL/call_backwards.src
+[1;32mPASS[0m /ipp-php/interpret_tests/STR2INT/stri2int_wrong_string_bool.src
+[1;32mPASS[0m /ipp-php/interpret_tests/STR2INT/stri2int_wrong_bool_bool.src
+[1;32mPASS[0m /ipp-php/interpret_tests/STR2INT/stri2int_wrong_index.src
+[1;32mPASS[0m /ipp-php/interpret_tests/STR2INT/stri2int_wrong_bool_nil.src
+[1;32mPASS[0m /ipp-php/interpret_tests/STR2INT/stri2int_wrong_nil_int.src
+[1;32mPASS[0m /ipp-php/interpret_tests/STR2INT/stri2int_wrong_int_nil.src
+[1;32mPASS[0m /ipp-php/interpret_tests/STR2INT/stri2int_int.src
+[1;32mPASS[0m /ipp-php/interpret_tests/STR2INT/stri2int_wrong_nil_bool.src
+[1;32mPASS[0m /ipp-php/interpret_tests/STR2INT/stri2int_var.src
+[1;32mPASS[0m /ipp-php/interpret_tests/STR2INT/stri2int_wrong_int_bool.src
+[1;32mPASS[0m /ipp-php/interpret_tests/STR2INT/stri2int_wrong_string_string.src
+[1;32mPASS[0m /ipp-php/interpret_tests/STR2INT/stri2int_wrong_nil_string.src
+[1;32mPASS[0m /ipp-php/interpret_tests/STR2INT/stri2int_wrong_nil_nil.src
+[1;32mPASS[0m /ipp-php/interpret_tests/STR2INT/stri2int_wrong_string_nil.src
+[1;32mPASS[0m /ipp-php/interpret_tests/STR2INT/stri2int_wrong_bool_string.src
+[1;32mPASS[0m /ipp-php/interpret_tests/STR2INT/stri2int_wrong_int_int.src
+[1;32mPASS[0m /ipp-php/interpret_tests/STR2INT/stri2int_wrong_bool_int.src
+[1;32mPASS[0m /ipp-php/interpret_tests/STR2INT/stri2int_wrong_int_string.src
+[1;32mPASS[0m /ipp-php/interpret_tests/OR/or_wrong_bool_nil.src
+[1;32mPASS[0m /ipp-php/interpret_tests/OR/or_vars.src
+[1;32mPASS[0m /ipp-php/interpret_tests/OR/or_bools.src
+[1;32mPASS[0m /ipp-php/interpret_tests/OR/or_wrong_nil_string.src
+[1;32mPASS[0m /ipp-php/interpret_tests/OR/or_bools3.src
+[1;32mPASS[0m /ipp-php/interpret_tests/OR/or_wrong_int_string.src
+[1;32mPASS[0m /ipp-php/interpret_tests/OR/or_wrong_bool_int.src
+[1;32mPASS[0m /ipp-php/interpret_tests/OR/or_bools2.src
+[1;32mPASS[0m /ipp-php/interpret_tests/OR/or_wrong_int_bool.src
+[1;32mPASS[0m /ipp-php/interpret_tests/OR/or_wrong_nil_bool.src
+[1;32mPASS[0m /ipp-php/interpret_tests/OR/or_wrong_nil_nil.src
+[1;32mPASS[0m /ipp-php/interpret_tests/OR/or_wrong_string_bool.src
+[1;32mPASS[0m /ipp-php/interpret_tests/OR/or_wrong_string_string.src
+[1;32mPASS[0m /ipp-php/interpret_tests/OR/or_wrong_string_int.src
+[1;32mPASS[0m /ipp-php/interpret_tests/OR/or_symb.src
+[1;32mPASS[0m /ipp-php/interpret_tests/OR/or_wrong_nil_int.src
+[1;32mPASS[0m /ipp-php/interpret_tests/OR/or_wrong_bool_string.src
+[1;32mPASS[0m /ipp-php/interpret_tests/OR/or_wrong_int_nil.src
+[1;32mPASS[0m /ipp-php/interpret_tests/OR/or_wrong_int_int.src
+[1;32mPASS[0m /ipp-php/interpret_tests/OR/or_wrong_string_nil.src
+[1;32mPASS[0m /ipp-php/interpret_tests/TYPE/type_int.src
+[1;32mPASS[0m /ipp-php/interpret_tests/TYPE/type_string.src
+[1;32mPASS[0m /ipp-php/interpret_tests/TYPE/type_nil.src
+[1;32mPASS[0m /ipp-php/interpret_tests/TYPE/type_bool.src
+[1;32mPASS[0m /ipp-php/interpret_tests/TYPE/type_var.src
+[1;32mPASS[0m /ipp-php/interpret_tests/TYPE/type_uninit.src
+[1;32mPASS[0m /ipp-php/interpret_tests/JUMP/jump_backwards.src
+[1;32mPASS[0m /ipp-php/interpret_tests/JUMP/jump_nonexisting.src
+[1;32mPASS[0m /ipp-php/interpret_tests/JUMP/jump_forward.src
+[1;32mPASS[0m /ipp-php/interpret_tests/CONCAT/concat_wrong_int_bool.src
+[1;32mPASS[0m /ipp-php/interpret_tests/CONCAT/concat_vars.src
+[1;32mPASS[0m /ipp-php/interpret_tests/CONCAT/concat_wrong_string_nil.src
+[1;32mPASS[0m /ipp-php/interpret_tests/CONCAT/concat_wrong_bool_nil.src
+[1;32mPASS[0m /ipp-php/interpret_tests/CONCAT/concat_wrong_int_nil.src
+[1;32mPASS[0m /ipp-php/interpret_tests/CONCAT/concat_wrong_int_string.src
+[1;32mPASS[0m /ipp-php/interpret_tests/CONCAT/concat_wrong_bool_string.src
+[1;32mPASS[0m /ipp-php/interpret_tests/CONCAT/concat_symb.src
+[1;32mPASS[0m /ipp-php/interpret_tests/CONCAT/concat_wrong_nil_int.src
+[1;32mPASS[0m /ipp-php/interpret_tests/CONCAT/concat_wrong_nil_string.src
+[1;32mPASS[0m /ipp-php/interpret_tests/CONCAT/concat_wrong_string_bool.src
+[1;32mPASS[0m /ipp-php/interpret_tests/CONCAT/concat.src
+[1;32mPASS[0m /ipp-php/interpret_tests/CONCAT/concat_wrong_int_int.src
+[1;32mPASS[0m /ipp-php/interpret_tests/CONCAT/concat_wrong_nil_bool.src
+[1;32mPASS[0m /ipp-php/interpret_tests/CONCAT/concat_wrong_bool_bool.src
+[1;32mPASS[0m /ipp-php/interpret_tests/CONCAT/concat_wrong_string_int.src
+[1;32mPASS[0m /ipp-php/interpret_tests/CONCAT/concat_wrong_bool_int.src
+[1;32mPASS[0m /ipp-php/interpret_tests/CONCAT/concat_wrong_nil_nil.src
+[1;31mBad stdout[0m /ipp-php/interpret_tests/ultra_test.src
+4c4,124
+< 	Reálná hodnota: GF@add
+---
+> 	Reálná hodnota: 15
+> 	OK!
+> Test [2]
+> 	Očekávaná hodnota: 5
+> 	Reálná hodnota: 5
+> 	OK!
+> Test [3]
+> 	Očekávaná hodnota: 50
+> 	Reálná hodnota: 50
+> 	OK!
+> Test [4]
+> 	Očekávaná hodnota: 2
+> 	Reálná hodnota: 2
+> 	OK!
+> Logika - int
+> Test [5]
+> 	Očekávaná hodnota: false
+> 	Reálná hodnota: false
+> 	OK!
+> Test [6]
+> 	Očekávaná hodnota: true
+> 	Reálná hodnota: true
+> 	OK!
+> Test [7]
+> 	Očekávaná hodnota: false
+> 	Reálná hodnota: false
+> 	OK!
+> Test [8]
+> 	Očekávaná hodnota: true
+> 	Reálná hodnota: true
+> 	OK!
+> Logika - string
+> Test [9]
+> 	Očekávaná hodnota: false
+> 	Reálná hodnota: false
+> 	OK!
+> Test [10]
+> 	Očekávaná hodnota: true
+> 	Reálná hodnota: true
+> 	OK!
+> Test [11]
+> 	Očekávaná hodnota: false
+> 	Reálná hodnota: false
+> 	OK!
+> Test [12]
+> 	Očekávaná hodnota: true
+> 	Reálná hodnota: true
+> 	OK!
+> Logika - bool
+> Test [13]
+> 	Očekávaná hodnota: false
+> 	Reálná hodnota: false
+> 	OK!
+> Test [14]
+> 	Očekávaná hodnota: true
+> 	Reálná hodnota: true
+> 	OK!
+> Test [15]
+> 	Očekávaná hodnota: false
+> 	Reálná hodnota: false
+> 	OK!
+> Test [16]
+> 	Očekávaná hodnota: true
+> 	Reálná hodnota: true
+> 	OK!
+> Test [17]
+> 	Očekávaná hodnota: false
+> 	Reálná hodnota: false
+> 	OK!
+> Test [18]
+> 	Očekávaná hodnota: true
+> 	Reálná hodnota: true
+> 	OK!
+> Test [19]
+> 	Očekávaná hodnota: true
+> 	Reálná hodnota: true
+> 	OK!
+> Loops
+> Zadej počet iterací: 69
+> Test [20]
+> 	Očekávaná hodnota: 69
+> 	Reálná hodnota: 69
+> 	OK!
+> String, typy
+> Test [21]
+> 	Očekávaná hodnota: 4
+> 	Reálná hodnota: 4
+> 	OK!
+> Test [22]
+> 	Očekávaná hodnota: d
+> 	Reálná hodnota: d
+> 	OK!
+> Test [23]
+> 	Očekávaná hodnota: aaoa
+> 	Reálná hodnota: aaoa
+> 	OK!
+> Test [24]
+> 	Očekávaná hodnota: string
+> 	Reálná hodnota: string
+> 	OK!
+> Test [25]
+> 	Očekávaná hodnota: int
+> 	Reálná hodnota: int
+> 	OK!
+> Test [26]
+> 	Očekávaná hodnota: 
+> 	Reálná hodnota: 
+> 	OK!
+> Test [27]
+> 	Očekávaná hodnota: nil
+> 	Reálná hodnota: nil
+> 	OK!
+> Stack
+> Test [28]
+> 	Očekávaná hodnota: second_in
+> 	Reálná hodnota: second_in
+> 	OK!
+> Test [29]
+> 	Očekávaná hodnota: first_in
+> 	Reálná hodnota: first_in
+> 	OK!
+
+run this test with:
+php ../interpret.php --source=/ipp-php/interpret_tests/ultra_test.src --input=/ipp-php/interpret_tests/ultra_test.in
+[1;31mBad RC[0m /ipp-php/interpret_tests/ultra_test.src
+got rc | expected rc
+53    |	0
+run this test with:
+php ../interpret.php --source=/ipp-php/interpret_tests/ultra_test.src --input=/ipp-php/interpret_tests/ultra_test.in
+[1;32mPASS[0m /ipp-php/interpret_tests/IDIV/idiv_wrong_int_nil.src
+[1;32mPASS[0m /ipp-php/interpret_tests/IDIV/idiv_vars.src
+[1;32mPASS[0m /ipp-php/interpret_tests/IDIV/idiv_wrong_nil_int.src
+[1;32mPASS[0m /ipp-php/interpret_tests/IDIV/idiv_wrong_bool_bool.src
+[1;32mPASS[0m /ipp-php/interpret_tests/IDIV/idiv_symb.src
+[1;32mPASS[0m /ipp-php/interpret_tests/IDIV/idiv_wrong_nil_nil.src
+[1;32mPASS[0m /ipp-php/interpret_tests/IDIV/idiv_ints.src
+[1;32mPASS[0m /ipp-php/interpret_tests/IDIV/idiv_wrong_string_nil.src
+[1;32mPASS[0m /ipp-php/interpret_tests/IDIV/idiv_wrong_string_string.src
+[1;32mPASS[0m /ipp-php/interpret_tests/IDIV/idiv_wrong_bool_nil.src
+[1;32mPASS[0m /ipp-php/interpret_tests/IDIV/idiv_wrong_zero.src
+[1;32mPASS[0m /ipp-php/interpret_tests/IDIV/idiv_wrong_int_string.src
+[1;32mPASS[0m /ipp-php/interpret_tests/IDIV/idiv_wrong_nil_bool.src
+[1;32mPASS[0m /ipp-php/interpret_tests/IDIV/idiv_wrong_bool_string.src
+[1;32mPASS[0m /ipp-php/interpret_tests/IDIV/idiv_wrong_nil_string.src
+[1;32mPASS[0m /ipp-php/interpret_tests/IDIV/idiv_wrong_int_bool.src
+[1;32mPASS[0m /ipp-php/interpret_tests/IDIV/idiv_wrong_bool_int.src
+[1;32mPASS[0m /ipp-php/interpret_tests/IDIV/idiv_wrong_string_bool.src
+[1;32mPASS[0m /ipp-php/interpret_tests/IDIV/idiv_wrong_string_int.src
+[1;32mPASS[0m /ipp-php/interpret_tests/STRLEN/strlen_var.src
+[1;32mPASS[0m /ipp-php/interpret_tests/STRLEN/strlen_wrong_nil.src
+[1;32mPASS[0m /ipp-php/interpret_tests/STRLEN/strlen_wrong_int.src
+[1;32mPASS[0m /ipp-php/interpret_tests/STRLEN/strlen_string.src
+[1;32mPASS[0m /ipp-php/interpret_tests/STRLEN/strlen_wrong_bool.src
+[1;32mPASS[0m /ipp-php/interpret_tests/1WRITE/write_string_escapeseq.src
+[1;32mPASS[0m /ipp-php/interpret_tests/1WRITE/write_nil.src
+[1;32mPASS[0m /ipp-php/interpret_tests/1WRITE/write_bool.src
+[1;32mPASS[0m /ipp-php/interpret_tests/1WRITE/write_string.src
+[1;32mPASS[0m /ipp-php/interpret_tests/1WRITE/write_var.src
+[1;32mPASS[0m /ipp-php/interpret_tests/1WRITE/write_int.src
+[1;32mPASS[0m /ipp-php/interpret_tests/JUMPIFEQ/jumpifeq_wrong_bool_int.src
+[1;32mPASS[0m /ipp-php/interpret_tests/JUMPIFEQ/jumpifeq_wrong_int_string.src
+[1;32mPASS[0m /ipp-php/interpret_tests/JUMPIFEQ/jumpifeq_wrong_int_bool.src
+[1;32mPASS[0m /ipp-php/interpret_tests/JUMPIFEQ/jumpifeq.src
+[1;32mPASS[0m /ipp-php/interpret_tests/JUMPIFEQ/jumpifeq_wrong_string_bool.src
+[1;32mPASS[0m /ipp-php/interpret_tests/JUMPIFEQ/jumpifeq_nonexisting.src
+[1;32mPASS[0m /ipp-php/interpret_tests/JUMPIFEQ/jumpifeq_wrong_bool_string.src
+[1;32mPASS[0m /ipp-php/interpret_tests/JUMPIFEQ/jumpifeq2.src
+[1;32mPASS[0m /ipp-php/interpret_tests/JUMPIFEQ/jumpifeq_wrong_string_int.src
+[1;32mPASS[0m /ipp-php/interpret_tests/PUSHFRAME/pushframe.src
+[1;32mPASS[0m /ipp-php/interpret_tests/PUSHFRAME/pushfram_fault.src
+[1;32mPASS[0m /ipp-php/interpret_tests/NOT/now_wrong_nil.src
+[1;32mPASS[0m /ipp-php/interpret_tests/NOT/not_vars.src
+[1;32mPASS[0m /ipp-php/interpret_tests/NOT/not_bools2.src
+[1;32mPASS[0m /ipp-php/interpret_tests/NOT/now_wrong_int.src
+[1;32mPASS[0m /ipp-php/interpret_tests/NOT/not_wrong_string.src
+[1;32mPASS[0m /ipp-php/interpret_tests/NOT/not_bools.src
+[1;32mPASS[0m /ipp-php/interpret_tests/GETCHAR/getchar_wrong_nil_string.src
+[1;32mPASS[0m /ipp-php/interpret_tests/GETCHAR/getchar_wrong_int_int.src
+[1;32mPASS[0m /ipp-php/interpret_tests/GETCHAR/getchar_vars.src
+[1;32mPASS[0m /ipp-php/interpret_tests/GETCHAR/getchar_wrong_bool_int.src
+[1;32mPASS[0m /ipp-php/interpret_tests/GETCHAR/getchar_wrong_bool_nil.src
+[1;32mPASS[0m /ipp-php/interpret_tests/GETCHAR/getchar_wrong_string_string.src
+[1;32mPASS[0m /ipp-php/interpret_tests/GETCHAR/getchar_wrong_string_bool.src
+[1;32mPASS[0m /ipp-php/interpret_tests/GETCHAR/getchar_wrong_bool_string.src
+[1;32mPASS[0m /ipp-php/interpret_tests/GETCHAR/getchar_symb.src
+[1;32mPASS[0m /ipp-php/interpret_tests/GETCHAR/getchar_wrong_index.src
+[1;32mPASS[0m /ipp-php/interpret_tests/GETCHAR/getchar_wrong_int_nil.src
+[1;32mPASS[0m /ipp-php/interpret_tests/GETCHAR/getchar_wrong_int_string.src
+[1;32mPASS[0m /ipp-php/interpret_tests/GETCHAR/getchar_wrong_nil_int.src
+[1;32mPASS[0m /ipp-php/interpret_tests/GETCHAR/getchar.src
+[1;32mPASS[0m /ipp-php/interpret_tests/GETCHAR/getchar_wrong_nil_nil.src
+[1;32mPASS[0m /ipp-php/interpret_tests/GETCHAR/getchar_wrong_bool_bool.src
+[1;32mPASS[0m /ipp-php/interpret_tests/GETCHAR/getchar_wrong_int_bool.src
+[1;32mPASS[0m /ipp-php/interpret_tests/GETCHAR/getchar_wrong_nil_bool.src
+[1;32mPASS[0m /ipp-php/interpret_tests/GETCHAR/getchar_wrong_string_nil.src
+[1;32mPASS[0m /ipp-php/interpret_tests/LABEL/label_wrong.src
+[1;32mPASS[0m /ipp-php/interpret_tests/LT/lt_symb.src
+[1;32mPASS[0m /ipp-php/interpret_tests/LT/lt_wrong_bool_nil.src
+[1;32mPASS[0m /ipp-php/interpret_tests/LT/lt_wrong_int_nil.src
+[1;32mPASS[0m /ipp-php/interpret_tests/LT/lt_wrong_nil_int.src
+[1;32mPASS[0m /ipp-php/interpret_tests/LT/lt_vars2.src
+[1;32mPASS[0m /ipp-php/interpret_tests/LT/lt_wrong_int_string.src
+[1;32mPASS[0m /ipp-php/interpret_tests/LT/lt_wrong_string_int.src
+[1;32mPASS[0m /ipp-php/interpret_tests/LT/lt_symb2.src
+[1;32mPASS[0m /ipp-php/interpret_tests/LT/lt_wrong_bool_string.src
+[1;32mPASS[0m /ipp-php/interpret_tests/LT/lt_string.src
+[1;32mPASS[0m /ipp-php/interpret_tests/LT/lt_wrong_int_bool.src
+[1;32mPASS[0m /ipp-php/interpret_tests/LT/lt_wrong_string_bool.src
+[1;32mPASS[0m /ipp-php/interpret_tests/LT/lt_int.src
+[1;32mPASS[0m /ipp-php/interpret_tests/LT/lt_bool.src
+[1;32mPASS[0m /ipp-php/interpret_tests/LT/lt_wrong_nil_string.src
+[1;32mPASS[0m /ipp-php/interpret_tests/LT/lt_bool2.src
+[1;32mPASS[0m /ipp-php/interpret_tests/LT/lt_wrong_string_nil.src
+[1;32mPASS[0m /ipp-php/interpret_tests/LT/lt_string2.src
+[1;32mPASS[0m /ipp-php/interpret_tests/LT/lt_wrong_nil_nil.src
+[1;32mPASS[0m /ipp-php/interpret_tests/LT/lt_int2.src
+[1;32mPASS[0m /ipp-php/interpret_tests/LT/lt_wrong_nil_bool.src
+[1;32mPASS[0m /ipp-php/interpret_tests/LT/lt_vars.src
+[1;32mPASS[0m /ipp-php/interpret_tests/LT/lt_wrong_bool_int.src
+[1;32mPASS[0m /ipp-php/interpret_tests/MUL/mul_wrong_string_nil.src
+[1;32mPASS[0m /ipp-php/interpret_tests/MUL/mul_vars.src
+[1;32mPASS[0m /ipp-php/interpret_tests/MUL/mul_wrong_int_string.src
+[1;32mPASS[0m /ipp-php/interpret_tests/MUL/mul_wrong_int_bool.src
+[1;32mPASS[0m /ipp-php/interpret_tests/MUL/mul_wrong_string_bool.src
+[1;32mPASS[0m /ipp-php/interpret_tests/MUL/mul_wrong_nil_int.src
+[1;32mPASS[0m /ipp-php/interpret_tests/MUL/mul_wrong_bool_nil.src
+[1;32mPASS[0m /ipp-php/interpret_tests/MUL/mul_wrong_string_int.src
+[1;32mPASS[0m /ipp-php/interpret_tests/MUL/mul_wrong_bool_bool.src
+[1;32mPASS[0m /ipp-php/interpret_tests/MUL/mul_wrong_nil_nil.src
+[1;32mPASS[0m /ipp-php/interpret_tests/MUL/mul_ints.src
+[1;32mPASS[0m /ipp-php/interpret_tests/MUL/mul_wrong_nil_string.src
+[1;32mPASS[0m /ipp-php/interpret_tests/MUL/mul_wrong_bool_int.src
+[1;32mPASS[0m /ipp-php/interpret_tests/MUL/mul_wrong_bool_string.src
+[1;32mPASS[0m /ipp-php/interpret_tests/MUL/mul_wrong_string_string.src
+[1;32mPASS[0m /ipp-php/interpret_tests/MUL/mul_wrong_nil_bool.src
+[1;32mPASS[0m /ipp-php/interpret_tests/MUL/mul_wrong_int_nil.src
+[1;32mPASS[0m /ipp-php/interpret_tests/MUL/mul_symb.src
+[1;32mPASS[0m /ipp-php/interpret_tests/GT/gt_symb.src
+[1;32mPASS[0m /ipp-php/interpret_tests/GT/gt_wrong_int_bool.src
+[1;32mPASS[0m /ipp-php/interpret_tests/GT/gt_vars.src
+[1;32mPASS[0m /ipp-php/interpret_tests/GT/gt_wrong_nil_bool.src
+[1;32mPASS[0m /ipp-php/interpret_tests/GT/gt_vars2.src
+[1;32mPASS[0m /ipp-php/interpret_tests/GT/gt_int.src
+[1;32mPASS[0m /ipp-php/interpret_tests/GT/gt_wrong_string_int.src
+[1;32mPASS[0m /ipp-php/interpret_tests/GT/gt_wrong_bool_int.src
+[1;32mPASS[0m /ipp-php/interpret_tests/GT/gt_symb2.src
+[1;32mPASS[0m /ipp-php/interpret_tests/GT/gt_string2.src
+[1;32mPASS[0m /ipp-php/interpret_tests/GT/gt_wrong_bool_string.src
+[1;32mPASS[0m /ipp-php/interpret_tests/GT/gt_int2.src
+[1;32mPASS[0m /ipp-php/interpret_tests/GT/gt_wrong_bool_nil.src
+[1;32mPASS[0m /ipp-php/interpret_tests/GT/gt_wrong_int_string.src
+[1;32mPASS[0m /ipp-php/interpret_tests/GT/gt_wrong_string_nil.src
+[1;32mPASS[0m /ipp-php/interpret_tests/GT/gt_wrong_string_bool.src
+[1;32mPASS[0m /ipp-php/interpret_tests/GT/gt_wrong_nil_int.src
+[1;32mPASS[0m /ipp-php/interpret_tests/GT/gt_wrong_int_nil.src
+[1;32mPASS[0m /ipp-php/interpret_tests/GT/gt_string.src
+[1;32mPASS[0m /ipp-php/interpret_tests/GT/gt_wrong_nil_string.src
+[1;32mPASS[0m /ipp-php/interpret_tests/GT/gt_bool2.src
+[1;32mPASS[0m /ipp-php/interpret_tests/GT/gt_wrong_nil_nil.src
+[1;32mPASS[0m /ipp-php/interpret_tests/GT/gt_bool.src
+[1;32mPASS[0m /ipp-php/interpret_tests/READ/read_string.src
+[1;32mPASS[0m /ipp-php/interpret_tests/READ/read_wrong_int.src
+[1;32mPASS[0m /ipp-php/interpret_tests/READ/read_wrong_string.src
+[1;32mPASS[0m /ipp-php/interpret_tests/READ/read_bool_nil.src
+[1;32mPASS[0m /ipp-php/interpret_tests/READ/read_int_nil.src
+[1;32mPASS[0m /ipp-php/interpret_tests/READ/read_string_nil.src
+[1;32mPASS[0m /ipp-php/interpret_tests/READ/read_bool.src
+[1;32mPASS[0m /ipp-php/interpret_tests/READ/read_int.src
+[1;32mPASS[0m /ipp-php/interpret_tests/READ/read_wrong_bool.src
+[1;32mPASS[0m /ipp-php/interpret_tests/READ/read_wrong_nil.src
+[1;32mPASS[0m /ipp-php/interpret_tests/STACK/pushs_var.src
+[1;32mPASS[0m /ipp-php/interpret_tests/STACK/pop_nothing.src
+[1;32mPASS[0m /ipp-php/interpret_tests/STACK/pushs_nil.src
+[1;32mPASS[0m /ipp-php/interpret_tests/STACK/pop_change.src
+[1;32mPASS[0m /ipp-php/interpret_tests/STACK/pushs_int.src
+[1;32mPASS[0m /ipp-php/interpret_tests/STACK/pushs_bool.src
+[1;32mPASS[0m /ipp-php/interpret_tests/STACK/pushs_string.src
+[1;32mPASS[0m /ipp-php/interpret_tests/AND/and_wrong_string_string.src
+[1;32mPASS[0m /ipp-php/interpret_tests/AND/and_wrong_int_nil.src
+[1;32mPASS[0m /ipp-php/interpret_tests/AND/and_wrong_string_bool.src
+[1;32mPASS[0m /ipp-php/interpret_tests/AND/and_wrong_bool_string.src
+[1;32mPASS[0m /ipp-php/interpret_tests/AND/and_wrong_nil_int.src
+[1;32mPASS[0m /ipp-php/interpret_tests/AND/and_wrong_string_nil.src
+[1;32mPASS[0m /ipp-php/interpret_tests/AND/and_bools3.src
+[1;32mPASS[0m /ipp-php/interpret_tests/AND/and_wrong_int_int.src
+[1;32mPASS[0m /ipp-php/interpret_tests/AND/and_wrong_string_int.src
+[1;32mPASS[0m /ipp-php/interpret_tests/AND/and_wrong_int_string.src
+[1;32mPASS[0m /ipp-php/interpret_tests/AND/and_wrong_bool_nil.src
+[1;32mPASS[0m /ipp-php/interpret_tests/AND/and_bools2.src
+[1;32mPASS[0m /ipp-php/interpret_tests/AND/and_wrong_nil_nil.src
+[1;32mPASS[0m /ipp-php/interpret_tests/AND/and_symb.src
+[1;32mPASS[0m /ipp-php/interpret_tests/AND/and_wrong_bool_int.src
+[1;32mPASS[0m /ipp-php/interpret_tests/AND/and_vars.src
+[1;32mPASS[0m /ipp-php/interpret_tests/AND/and_wrong_nil_string.src
+[1;32mPASS[0m /ipp-php/interpret_tests/AND/and_wrong_nil_bool.src
+[1;32mPASS[0m /ipp-php/interpret_tests/AND/and_bools.src
+[1;32mPASS[0m /ipp-php/interpret_tests/AND/and_wrong_int_bool.src
+PASSED: 353
+FAILED: 10
